@@ -51,6 +51,6 @@ jobs:
             echo "Vous n'avez pas renseigner correctement votre secret ALWAYSDATA_TOKEN"
           exit 1  # Quitter avec un code d'erreur
           else
-            echo "Échec du redémarrage avec le code de réponse : $response_code"
+            echo "Échec du reload avec le code de réponse : $response_code"
             exit 1  # Quitter avec un code d'erreur
           fi
